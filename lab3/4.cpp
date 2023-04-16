@@ -1,13 +1,13 @@
 /*
-En un acertijo el problema es encontrar la mayor cantidad de chocolates 
-que se pueda comer, siguiendo las recomendaciones : 
+En un acertijo el problema es encontrar la mayor cantidad de chocolates
+que se pueda comer, siguiendo las recomendaciones :
 a. dinero : Dinero que se tiene para comprar chocolates.
 b. precio : Precio de un chocolate.
 c. envoltura : Número de envolturas a devolver para recibir un chocolate  extra.
-Se puede suponer que todos los valores dados son números enteros 
-positivos y mayores que 1. 
-Un método consiste en contar continuamente la cantidad de chocolates 
-devolviendo las envolturas hasta que las envolturas que quedan no 
+Se puede suponer que todos los valores dados son números enteros
+positivos y mayores que 1.
+Un método consiste en contar continuamente la cantidad de chocolates
+devolviendo las envolturas hasta que las envolturas que quedan no
 alcancen para canjear un chocolate.
 */
 
@@ -45,6 +45,15 @@ int acertijo_chocolates(int dinero, int precio_chocolate, int precio_envolturas)
 
 int main()
 {
-  cout << acertijo_chocolates(16, 2, 2) << endl;
+  cout << acertijo_chocolates(16, 2, 2) << endl; // 15
+  cout << acertijo_chocolates(15, 1, 3) << endl; // 22
+  cout << acertijo_chocolates(18, 4, 2) << endl; // 7
+  cout << acertijo_chocolates(2, 1, 2) << endl;  // 3
+  cout << acertijo_chocolates(40, 5, 8) << endl; // 9
+  cout << acertijo_chocolates(32, 2, 4) << endl; // 21
+  cout << acertijo_chocolates(10, 3, 5) << endl; // 3
+  cout << acertijo_chocolates(25, 5, 2) << endl; // 9
+  cout << acertijo_chocolates(9, 2, 2) << endl;  // 7
+  cout << acertijo_chocolates(50, 2, 7) << endl; // 29
   return 0;
 }
