@@ -45,15 +45,15 @@ int acertijo_chocolates(int dinero, int precio_chocolate, int precio_envolturas)
 
 int main()
 {
-  cout << acertijo_chocolates(16, 2, 2) << endl; // 15
-  cout << acertijo_chocolates(15, 1, 3) << endl; // 22
-  cout << acertijo_chocolates(18, 4, 2) << endl; // 7
-  cout << acertijo_chocolates(2, 1, 2) << endl;  // 3
-  cout << acertijo_chocolates(40, 5, 8) << endl; // 9
-  cout << acertijo_chocolates(32, 2, 4) << endl; // 21
-  cout << acertijo_chocolates(10, 3, 5) << endl; // 3
-  cout << acertijo_chocolates(25, 5, 2) << endl; // 9
-  cout << acertijo_chocolates(9, 2, 2) << endl;  // 7
-  cout << acertijo_chocolates(50, 2, 7) << endl; // 29
+  cout << "Te puedes comer " << acertijo_chocolates(16, 2, 2) << " chocolates" << endl; // 15
+  cout << "Te puedes comer " << acertijo_chocolates(15, 1, 3) << " chocolates" << endl; // 22
+  cout << "Te puedes comer " << acertijo_chocolates(18, 4, 2) << " chocolates" << endl; // 7
+  cout << "Te puedes comer " << acertijo_chocolates(2, 1, 2) << " chocolates" << endl;  // 3
+  cout << "Te puedes comer " << acertijo_chocolates(40, 5, 8) << " chocolates" << endl; // 9
+  cout << "Te puedes comer " << acertijo_chocolates(32, 2, 4) << " chocolates" << endl; // 21
+  cout << "Te puedes comer " << acertijo_chocolates(10, 3, 5) << " chocolates" << endl; // 3
+  cout << "Te puedes comer " << acertijo_chocolates(25, 5, 2) << " chocolates" << endl; // 9
+  cout << "Te puedes comer " << acertijo_chocolates(9, 2, 2) << " chocolates" << endl;  // 7
+  cout << "Te puedes comer " << acertijo_chocolates(50, 2, 7) << " chocolates" << endl; // 29
   return 0;
 }
