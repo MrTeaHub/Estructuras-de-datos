@@ -1,5 +1,8 @@
 /*
-  1. Escriba una función template para encontrar el índice del elemento más pequeño de un array de cualquier tipo. Pruebe la función con tres arrays de tipo int, double y char. Entonces imprima el valor del elemento más pequeño
+  1. Escriba una función template para encontrar el índice del elemento 
+  más pequeño de un array de cualquier tipo. Pruebe la función con tres 
+  arrays de tipo int, double y char. Entonces imprima el valor del 
+  elemento más pequeño
   */
 
 #include <iostream>
