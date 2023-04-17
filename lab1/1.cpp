@@ -43,6 +43,7 @@ int main()
   int arr1[4] = {7, 2, 1, 4};
   double arr2[4] = {7.5, 6.1, 4.6, 1.3};
   char arr3[4] = {'a', 'b', 'A', 'g'};
+  
   cout << "Solucion recursiva: " << endl;
   cout << "El numero menor es: " << calcularMenor(arr1) << endl;
   cout << "El numero menor es: " << calcularMenor(arr2) << endl;
