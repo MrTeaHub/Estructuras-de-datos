@@ -1,3 +1,13 @@
+/*
+Escribe una función helper para encontrar el entero más pequeño en un arreglo de
+enteros. Luego use una función no recursiva para llamarlo. Pruebe su función en un
+programa con al menos 10 arreglos de 10 enteros cada uno. Tenga en cuenta que
+cuando buscamos el elemento más pequeño en un arreglo, debemos realizar un
+seguimiento del elemento más pequeño y el siguiente índice para verificar. Esto
+significa que su función auxiliar (helper function) debe tener dos parámetros
+adicionales.
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
