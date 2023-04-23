@@ -1,4 +1,8 @@
+
+
 Los archivos .txt que contengan el polinomio, deben de ir en la misma 
 carpeta del .exe, o modificar la ruta del archivo en el .cpp
 
 pd: El codigo lo hice en clion
+
+
